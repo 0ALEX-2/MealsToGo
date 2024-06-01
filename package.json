@@ -1,5 +1,5 @@
 {
-  "name": "MealsToGo",
+  "name": "my-app",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "lint": "eslint . --ext .js"
+    "lint": "npx eslint --ext .jsx --ext .js"
   },
   "dependencies": {
     "expo": "~51.0.8",
